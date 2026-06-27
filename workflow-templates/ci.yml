@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup
+        run: echo "Add your setup steps here (e.g. node/python/go setup)"
+      - name: Lint
+        run: echo "Add your lint command here"
+      - name: Typecheck
+        run: echo "Add your typecheck command here"
+      - name: Test
+        run: echo "Add your test command here"
+      - name: Build
+        run: echo "Add your build command here"
