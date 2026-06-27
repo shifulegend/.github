@@ -1,0 +1,19 @@
+# CODEOWNERS
+# Automatically requested as reviewers when a PR touches these paths.
+# Format: <path-pattern> @<owner>
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global fallback — shifulegend reviews everything by default
+*                   @shifulegend
+
+# AI instruction and memory files — always reviewed by repo owner
+docs/ai/**          @shifulegend
+.github/copilot-instructions.md  @shifulegend
+CLAUDE.md           @shifulegend
+AGENTS.md           @shifulegend
+gemini/GEMINI.md    @shifulegend
+
+# Security-sensitive areas
+.github/workflows/**  @shifulegend
+**/config/**          @shifulegend
+**/*.env*             @shifulegend
