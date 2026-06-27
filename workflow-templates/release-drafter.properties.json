@@ -1,0 +1,6 @@
+{
+  "name": "Release Drafter",
+  "description": "Auto-drafts release notes from merged PR labels.",
+  "iconName": "octicon tag",
+  "categories": ["Release management"]
+}
