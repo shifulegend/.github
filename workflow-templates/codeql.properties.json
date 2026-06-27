@@ -1,0 +1,6 @@
+{
+  "name": "CodeQL Security Analysis",
+  "description": "SAST scanning with CodeQL on push, PR, and weekly schedule.",
+  "iconName": "octicon shield",
+  "categories": ["Security", "Code scanning"]
+}
