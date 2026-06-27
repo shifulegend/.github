@@ -1,0 +1,6 @@
+{
+  "name": "CI — Lint, Typecheck, Test, Build",
+  "description": "Starter CI workflow: lint, typecheck, test, and build on push and PR.",
+  "iconName": "octicon workflow",
+  "categories": ["CI", "Testing"]
+}
